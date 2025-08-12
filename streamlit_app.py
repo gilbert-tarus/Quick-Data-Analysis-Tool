@@ -2,6 +2,8 @@ import streamlit as st
 import pandas as pd
 import new_analyze_function as analyze_function
 
+pd.set_option('display.float_format', '{:.2f}'.format)
+
 st.set_page_config(page_title="New Quick Data Analysis Tool", layout="wide")
 
 # Load CSS
