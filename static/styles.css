@@ -1,0 +1,141 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 20px;
+  background-color: #f4f6f9;
+  color: #495057;
+}
+h1 {
+  text-align: center;
+  color: #f7fafc;
+  background-color: #000000;
+  padding: 15px;
+  border-radius: 5px;
+  max-width: 100%;
+  margin: 20px auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-size: 24px;
+  letter-spacing: 1.2px;
+}
+
+form {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 0 auto 20px;
+}
+label, input[type="number"], select, input[type="file"] {
+  width: 100%;
+}
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #718096;
+}
+
+input[type="number"], select, input[type="file"] {
+  padding: 10px;
+  border: 1px solid #cbd5e0;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+input[type="submit"], input[type="reset"] {
+  background-color: #3182ce;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 10px;
+}
+input[type="submit"]:hover, input[type="reset"]:hover {
+  background-color: #2b6cb0;
+}
+input[type="reset"] {
+  background-color: #ed3636;
+}
+input[type="reset"]:hover {
+  background-color: #dd2020;
+}
+
+.centered {
+  text-align: center;
+  margin-top: 20px;
+}
+.half-width {
+  width: 48%;
+}
+.move-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+button.move-up, button.move-down {
+  padding: 5px;
+  font-size: 12px;
+  margin: 0 5px;
+  cursor: pointer;
+  background-color: transparent;
+  color: #3182ce;
+  border: none;
+  font-size: 18px;
+}
+.delete-icon {
+  color: red;
+  cursor: pointer;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.down-btn, .up-btn{
+  color: blue;
+}
+
+.field-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 10px auto;
+  background-color: #f9f9f9;
+  padding: 4px 8px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+.field-group select {
+  flex-grow: 1;
+  padding: 6px 8px;
+  margin: auto;
+}
+
+.field-group button {
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 5px 10px;
+  margin: 2px;
+  border-radius: 4px;
+  transition: background-color 0.2s ease-in-out;
+  font-weight: 500;
+  color: white;
+}
+
+.field-group .remove-btn {
+  background-color: #f56565;
+}
+
+.move-field > button {
+  background-color: #65abf5;
+}
+
+.field-group button:hover {
+  background-color: #c6c6c6;
+}
+
+.field-group button:active {
+  background-color: #a5a5a5;
+}
