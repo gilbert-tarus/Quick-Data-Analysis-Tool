@@ -80,7 +80,7 @@ def analyze_top_fields(nil_importers, group_by_cols, agg_dict, sort_by, top_n, c
         analysis_result = top_field_amounts
 
     # Step 8: Save the result to CSV
-    analysis_result.to_csv(f'results/{csv_filename}', index=None)
+    analysis_result.to_csv(f'{csv_filename}', index=None)
 
     return analysis_result.to_html(classes="table table-striped", index = False, border=0)
     # return analysis_result
